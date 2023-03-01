@@ -1,0 +1,66 @@
+.filter {
+    width: 100%;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+
+    .container {
+        .action{
+width: 100%;
+margin: 20px 0;
+
+button{
+    width: 100%;
+    margin: 0;
+}
+        }
+        .searchbar {
+            input {
+                width: calc(100% - 20px);
+                padding: 10px 10px;
+                border: 1px solid rgb(179, 170, 170);
+            }
+        }
+
+        .pricerange {
+            margin: 20px 0;
+
+
+        }
+
+        .title {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            margin: 10px 0;
+        }
+
+        .categories {
+
+            .category:first-child {
+                border-top: 1px solid rgb(179, 170, 170);
+            }
+
+            .category {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                border-bottom: 1px solid rgb(179, 170, 170);
+                padding: 10px 5px 10px 0;
+
+                justify-content: space-between;
+
+                svg {
+                    color: rgb(179, 170, 170);
+                }
+
+                .checkbox {
+                    color: red;
+                }
+            }
+        }
+    }
+}

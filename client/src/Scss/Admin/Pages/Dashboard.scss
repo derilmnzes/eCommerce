@@ -1,0 +1,36 @@
+.dashboard {
+    .container {
+
+        .products {
+            width: calc(100% - 40px);
+            margin:0 20px;
+
+            .container{
+                padding: 40px;
+
+                .title{
+                    width: 100%;
+                    text-align: center;
+                }
+
+                .filter_products{
+                    display: flex;
+                    width: 100%;
+
+                    .filter_container{
+width: 30%;
+                    }
+                    .cards{
+                        width: 70%;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content: space-around;
+                        align-items: center;
+                    }
+                }
+            }
+        }
+
+
+    }
+}

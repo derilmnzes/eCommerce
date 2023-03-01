@@ -1,0 +1,71 @@
+.navbar {
+
+    padding: 20px 20px;
+
+
+    .wrapper {
+        @include flex-r-c-sb-container;
+
+
+        .info_nav {
+            @include flex-r-c-sb-container;
+            width: 20%;
+
+            .info_one {
+                svg {
+                    margin: 0 10px;
+                }
+            }
+        }
+    }
+
+
+}
+
+
+
+.subnavbar {
+    padding: 0 20px;
+  
+
+    .wrapper {
+        @include flex-r-c-sb-container;
+
+
+        .nav_searchbar {
+            width: 50%;
+
+            .container {
+                width: 90%;
+                margin: 0 auto;
+                position: relative;
+
+
+
+                svg {
+                    position: absolute;
+                    top: 10px;
+                    right: 5px;
+                    color: rgb(177, 168, 168);
+                }
+            }
+        }
+
+
+
+        .nav_links {
+            @include flex-r-c-sb-container;
+            width: 20%;
+
+            .nav_link {
+                list-style: none;
+            }
+        }
+
+        .nav_actions {
+            @include flex-r-c-sb-container;
+            width: 20%;
+        }
+
+    }
+}

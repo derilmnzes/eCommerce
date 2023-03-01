@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@300&display=swap');
+
+
+@import './Mixin/mixin';
+
+@import './Layout/Layout';
+@import './Pages/home';
+@import './Pages/shop';
+@import './Pages/product';
+@import './Admin/Pages/Dashboard.scss';
+
+
+
+@import './Components/button';
+@import './Components/card';
+@import './Components/banner';
+@import './Components/filter';
+@import './Components/breadcrumbs';
+@import './Components/input.scss';
+
+
+
+/*Admin*/
+
+@import './Admin/Pages/signin';
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    max-width: 1440px;
+    margin:0 auto;
+    font-family: 'Alegreya Sans', sans-serif;
+    position: relative;
+}
